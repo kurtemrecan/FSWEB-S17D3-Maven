@@ -89,7 +89,7 @@ class MainTest {
     @DisplayName("Test Koala AllArgsConstructor")
     void testKoalaAllArgsConstructor() {
         // Creating an instance using all-args constructor
-        Koala koala = new Koala(1, "Kara", 20.0, 15.0, "Female");
+        Koala koala = new Koala(1, "Kara", 15.0, 20.0, "Female");
 
         // Assertions to ensure fields are set correctly
         assertEquals(1, koala.getId());
